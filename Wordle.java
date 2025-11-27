@@ -138,7 +138,7 @@ public class Wordle {
         }
 
         if (!won) {
-            System.out.println(secret);
+            System.out.println("secret word was " + secret);
         }
         inp.close();
     }
